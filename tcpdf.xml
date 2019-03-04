@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="library" method="upgrade" version="3.0">
+    <name>TCPDF</name>
+    <libraryname>tcpdf</libraryname>
+    <author>Nicola Asuni</author>
+    <creationDate>2002-08-03</creationDate>
+    <copyright>2002-2018 Nicola Asuni - Tecnick.com LTD</copyright>
+    <license>https://www.gnu.org/copyleft/lesser.html LGPL-3.0</license>
+    <authorEmail>info@tecnick.com</authorEmail>
+    <authorUrl>www.tecnick.com</authorUrl>
+    <version>6.2.27</version>
+    <description>This is a PHP class for generating PDF documents without requiring external extensions.</description>
+
+    <files>
+        <folder>config</folder>
+        <folder>fonts</folder>
+        <folder>include</folder>
+        <folder>tools</folder>
+        <file>tcpdf.php</file>
+        <file>tcpdf.xml</file>
+        <file>tcpdf_autoconfig.php</file>
+        <file>tcpdf_barcodes_1d.php</file>
+        <file>tcpdf_barcodes_2d.php</file>
+        <file>tcpdf_import.php</file>
+        <file>tcpdf_parser.php</file>
+        <file>LICENSE.TXT</file>
+        <file>README.md</file>
+    </files>
+    
+    <updateservers>
+        <server type="extension"
+             name="TCPDF-Joomla-Library Update Server">https://raw.githubusercontent.com/g-nebel/TCPDF/joomla/lib_tcpdf.xml</server>
+    </updateservers>
+</extension>
